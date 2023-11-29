@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: rgb(0, 0, 0);
+    height: 95vh;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3vw;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+  }
+  
+  img {
+    width: 50vw;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 10vw;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin-top: 25vh;
+  }
+
+  h2 {
+    padding: 2vw;
+    text-align: center;
+    color: rgb(80, 78, 78);
+    font-size: 5vw;
+  }
+
+  p {
+    margin: 4vw;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  ul {
+    margin: 5vw;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .img-cabecalho {
+    background-color: grey;
+    width: 25vw;
+    margin: 10px;
+  }
+
+  .conteudo {
+    margin: 15px;
+    text-align: justify;
+  }
+
+  .imagem-e-texto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .imagem-e-video {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .fotos {
+    margin-left: 50px;
+  }
+
+  .fotos-2 {
+    margin-right: 50px;
+  }
+
+  .lista {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    text-align: center;  
+    font-size: 2vw;  
+  }
+
+  #biografia {
+    background-color: rgb(226, 225, 225);
+    margin: 0;
+    height: 115vw;
+  }
+
+  #contribuicoes {
+    background-color: white;
+    margin: 0;
+    height: 105vw;
+  }
+
+  #historico {
+    background-color: rgb(226, 225, 225);
+    margin: 0;
+    height: 260vh;
+  }
+
+  #video {
+    display: flex;
+    justify-content: center;
+    margin: 5vw;
+  }
+
+  @media (max-width: 500px) {
+    main {
+        width: 116vw;
+    }
+
+    header {
+        margin: 0;
+        height: 57vw;
+        width: 116vw;
+    }
+    h1 {
+        margin-top: 12vh;
+    }
+
+    h2 {
+        width: 116vw;
+      }
+
+    p {
+        margin: 5vw;
+        font-size: 4vw;
+    }
+
+    .img-cabecalho {
+        width: 25vw;
+        margin: 10px;
+    }
+
+    .imagem-e-texto {
+        flex-direction: column;
+    }
+    
+    .imagem-e-video {
+     flex-direction: column;
+    }
+
+    .lista {
+
+        font-size: 4vw;  
+      }
+
+    #biografia {
+        height: 260vw;
+    }
+
+    #contribuicoes {
+        height: 175vw;
+      }
+
+    #historico {
+        height: 235vh;
+    }
+  }
